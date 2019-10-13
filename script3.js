@@ -80,6 +80,12 @@ window.onload = function(e) {
 // RANDOM QUOTE BUTTON
 
 function newQuote() {
-	var randomNumber = Math.floor(Math.random() * (quotes.length));
-	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+	var randomQuote = Math.floor(Math.random() * (quotes.length));
+	document.getElementById('quoteDisplay').innerHTML = quotes[randomQuote];
+}
+
+// RANDOM NUMBER BUTTON
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
 }
