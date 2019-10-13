@@ -32,7 +32,7 @@ color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
 
-// RANDOMIZE BACKGROUND BUTTON
+// RANDOMIZE BACKGROUND BUTTON (WORK IN PROGRESS!!)
 
 function randomizeSelect(selectId, fieldId) {
 
